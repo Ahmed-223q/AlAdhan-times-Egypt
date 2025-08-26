@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-family: "Cairo";
+}
+#container {
+  background: #010153;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > h1 {
+  background: #00000091;
+  text-align: center;
+  font-size: 35px;
+}
+/*1*/
+#city {
+  background: #00000030;
+  height: 45%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#city h1 {
+  font-size: 100px;
+}
+#city h2 {
+  font-size: 30px;
+}
+#city #text {
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  font-size: 15px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+}
+#city #text option {
+  color: black;
+}
+/*1*/
+/*2*/
+#cards {
+  /* background: pink; */
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cards div {
+  width: 15%;
+  height: 60%;
+  background: #ffffff22;
+}
+#cards div h2 {
+  height: 20%;
+  font-size: 25px;
+  background: #00000048;
+  text-align: center;
+}
+#cards div div {
+  width: 100%;
+  height: 80%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*2*/
+@media (min-width: 0px) and (max-width: 1000px) {
+  #city {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+  }
+
+  #container {
+    height: fit-content;
+  }
+  #cards {
+    padding-top: 50px;
+    /* background: pink; */
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #cards div {
+    width: 70%;
+    height: 250px;
+    background: pink;
+    background: #ffffff22;
+  }
+  #cards div h2 {
+    height: 20%;
+    font-size: 25px;
+    background: #00000048;
+    text-align: center;
+  }
+  #cards div div {
+    /* background: red; */
+    width: 100%;
+    height: 80%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

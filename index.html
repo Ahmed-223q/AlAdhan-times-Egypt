@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlAdhan times</title>
+    <link rel="stylesheet" href="src/main.css" />
+  </head>
+  <body dir="rtl">
+    <!-- start project -->
+    <main id="container">
+      <h1>مصر</h1>
+      <section id="city">
+        <h1 id="output">المدينة</h1>
+        <h2>التاريخ: <span id="Date">(سيظهر هنا)</span></h2>
+        <div>
+          <select id="text">
+            <option>القاهره</option>
+            <option>الجيزه</option>
+            <option>قنا</option>
+            <option>السويس</option>
+            <option>الاسكندرية</option>
+            <option>الفيوم</option>
+          </select>
+        </div>
+      </section>
+      <section id="cards">
+        <div>
+          <h2>الفجر</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+        <div>
+          <h2>الشروق</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+        <div>
+          <h2>الظهر</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+        <div>
+          <h2>العصر</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+        <div>
+          <h2>المغرب</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+        <div>
+          <h2>العشاء</h2>
+          <div>
+            <p class="Time"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- end project -->
+    <script type="module" src="src/main.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+  </body>
+</html>
